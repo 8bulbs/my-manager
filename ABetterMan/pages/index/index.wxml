@@ -8,6 +8,11 @@
     </block>
   </view>
   <view class="usermotto">
+    <i class="iconfont icon-icontysmile"></i>
     <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="location">
+    <i class="iconfont icon-mappinmarker"></i>
+    <text bindtap="onOpenMap" class="location-text">{{locationData.address}}</text>
   </view>  
 </view>

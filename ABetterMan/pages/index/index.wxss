@@ -1,4 +1,6 @@
 /**index.wxss**/
+@import "../../assets/fonts/fonts.wxss";
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -18,4 +20,12 @@
 
 .usermotto {
   margin-top: 100px;
+  height: 25rpx;
+  line-height: 25rpx;
+}
+
+.location {
+  margin-top: 50px;
+  height: 25rpx;
+  line-height: 25rpx;
 }
